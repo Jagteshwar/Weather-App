@@ -1,7 +1,8 @@
 package com.example.weatherapp.data.remote.dto
 
-data class Current(
-    val air_quality: AirQuality,
+import com.example.weatherapp.domain.model.Condition
+
+data class CurrentDto(
     val cloud: Int,
     val condition: Condition,
     val dewpoint_c: Double,

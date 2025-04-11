@@ -1,6 +1,6 @@
 package com.example.weatherapp.data.remote.dto
 
-data class Location(
+data class LocationDto(
     val country: String,
     val lat: Double,
     val localtime: String,
