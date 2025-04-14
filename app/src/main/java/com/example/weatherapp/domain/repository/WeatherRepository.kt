@@ -6,5 +6,5 @@ import retrofit2.http.Query
 
 interface WeatherRepository {
 
-    suspend fun getCurrentWeather(location: String): TemperatureDto
+    suspend fun getCurrentWeather(location: String,api: String): TemperatureDto
 }
